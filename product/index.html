@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    
+  <style>
+    /* Optional: additional styling */
+    .header {
+      background-color: #212529;
+      padding: 15px;
+      color: white;
+    }
+    .product-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Space between photo holders */
+}
+.product-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Space between photo holders */
+}
+
+.product-holder {
+    border: 1px solid #ccc; /* Add border for each product holder */
+    border-radius: 8px; /* Rounded corners */
+    padding: 40px; /* Padding inside each holder */
+    text-align: center; /* Center text */
+    background-color: #f9f9f9; /* Light background color */
+    height: 300px; /* Set a fixed height for each holder */
+    overflow: hidden; /* Hide any overflow from images */
+}
+
+.product-holder img {
+    width: 100%; /* Make the images fill the holder width */
+    height: 200px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+    .nav-link {
+      text-align: center;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Es Teh</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../product/index.html">Product</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Lainnya
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../about us/index.html">About us</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../contact us/index.html">Contact us</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- end navbar -->
+<!-- Main content -->
+<main class="container mt-4">
+    <div class="content">
+      <h1 text align="center">Preview untuk produk yang dijual</h1>
+      <div class="product-gallery">
+        <div class="product-holder" >
+            <img src="../Assets/images (4).jpeg " alt="Product 1" />
+            <p>Es-Teh Biasa</p>
+        </div>
+        <div class="product-holder">
+            <img src="../Assets/images (4).jpeg" alt="Product 2" />
+            <p>Es-Teh Jumbo</p>
+        </div>
+        <div class="product-holder">
+            <img src="../Assets/images (5).jpeg" alt="Product 3" />
+            <p>Es-Teh Matcha</p>
+        </div>
+        <div class="product-holder">
+            <img src="../Assets/images (3).jpeg" alt="Product 4" />
+            <p>Es-Teh Lemon</p>
+        </div>
+        <div class="product-holder">
+            <img src="../Assets/images (6).jpeg" alt="Product 5" />
+            <p>Es-Teh Milk</p>
+        </div>
+        <div class="product-holder">
+            <img src="../Assets/21.08-10.03.52-es-teh-taro-medium.jpg" alt="Product 6" />
+            <p>Es-Teh Taro</p>
+        </div>
+        </div>
+    </div>
+    
+    </div>
+  </main>
+<!-- end content -->
+
+    <script src="../bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
