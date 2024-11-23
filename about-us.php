@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
-    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     
   <style>
     /* Optional: additional styling */
@@ -48,57 +49,26 @@
   </style>
 </head>
 <body>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Es Teh</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../product/index.html">Product</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Lainnya
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/">About us</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../contact us/index.html">Contact us</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-<!-- end navbar -->
+
+<?php include 'navbar.php'; ?>
+
 <!-- main content -->
     <!-- About Section -->
     <section id="about" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/es-teh.webp" alt="Es Teh" class="img-fluid">
+                    <img src="assets/es-teh.webp" alt="Es Teh" class="img-fluid">
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <h2>Tentang Es Teh Kami</h2>
                     <p>Kami menyajikan es teh segar yang dibuat dari teh berkualitas tinggi dan bahan alami. Dengan berbagai varian rasa, es teh kami cocok untuk menemani setiap momen spesialmu.</p>
-                    <a href="#menu" class="btn btn-outline-primary">Explore Menu</a>
+                    <a href="product.php" class="btn btn-outline-success">Explore Menu</a>
                 </div>
             </div>
         </div>
 <!-- end content -->
 
-    <script src="../bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

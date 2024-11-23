@@ -4,44 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
     
 </head>
 <body>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Es Teh</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./product/index.html">Product</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Lainnya
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./about us/index.html">About us</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="./contact us/index.html">Contact us</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
- </nav>
-<!-- end navbar -->
+<?php include 'navbar.php'; ?>
 <!-- main content -->
 <div id="carouselExampleCaptions" class="carousel slide me-2" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -53,38 +21,38 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="Assets/1.png" class="d-block w-100" alt="..." style="height: 600px;">
+        <img src="Assets/1.png" class="d-block w-100" alt="..." style="height: 700px;">
         <div class="carousel-caption d-none d-md-block">
           <h6>hidupmu belum nikmat kalau belum mencoba EsTeh dari kami😉🤞.</h6>
-          <p><a href="./product/index.html" class="btn btn-primary">Beli Sekarang</a></p>
+          <p><a href="./product/index.html" class="btn btn-outline-success">Beli Sekarang</a></p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="Assets/2.png" class="d-block w-100" alt="..." style="height: 600px;">
+        <img src="Assets/2.png" class="d-block w-100" alt="..." style="height: 700px;">
         <div class="carousel-caption d-none d-md-block">
           <h6>EsTeh Varian yang ada disini sangat nikmat dan terlihat menyegarkan,tunggu apalagi buruan diorder yaa😉🙌.</h6>
-          <p><a href="./product/index.html" class="btn btn-primary">Beli Sekarang</a></p>
+          <p><a href="./product/index.html" class="btn btn-outline-success">Beli Sekarang</a></p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="Assets/3.png" class="d-block w-100" alt="..." style="height: 600px;">
+        <img src="Assets/3.png" class="d-block w-100" alt="..." style="height: 700px;">
         <div class="carousel-caption d-none d-md-block">
           <h6>Some representative placeholder content for the third slide.</h6>
-          <p><a href="./product/index.html" class="btn btn-primary">Beli Sekarang</a></p>
+          <p><a href="./product/index.html" class="btn btn-outline-success">Beli Sekarang</a></p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="Assets/4.png" class="d-block w-100" alt="..." style="height: 600px;">
+        <img src="Assets/4.png" class="d-block w-100" alt="..." style="height: 700px;">
         <div class="carousel-caption d-none d-md-block">
           <h6>Some representative placeholder content for the third slide.</h6>
-          <p><a href="./product/index.html" class="btn btn-primary">Beli Sekarang</a></p>
+          <p><a href="./product/index.html" class="btn btn-outline-success">Beli Sekarang</a></p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="Assets/5.png" class="d-block w-100" alt="..."  style="height: 600px;">
+        <img src="Assets/5.png" class="d-block w-100" alt="..."  style="height: 700px;">
         <div class="carousel-caption d-none d-md-block">
           <h6>Some representative placeholder content for the third slide.</h6>
-          <p><a href="./product/index.html" class="btn btn-primary">Beli Sekarang</a></p>
+          <p><a href="./product/index.html" class="btn btn-outline-success">Beli Sekarang</a></p>
         </div>
       </div>
     </div>

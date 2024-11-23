@@ -1,0 +1,11 @@
+.bg-custom{
+    background-color: #E4B1F0 !important;
+}
+.btn-outline-success{
+    background-color: #E1FF !important;
+    color: white !important;
+    border: none !important;
+}
+.btn-outline-success:hover{
+    background-color: #FDDBBB !important;
+}
