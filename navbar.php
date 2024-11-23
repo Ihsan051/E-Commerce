@@ -1,7 +1,7 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-custom sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-custom sticky-top" style="height: 60px;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Es Teh</a>
+      <a class="navbar-brand m-0" href="#"><img src="./Assets/logo.png" alt="" width="85px" class="m-0"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
